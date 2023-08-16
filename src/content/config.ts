@@ -5,4 +5,8 @@ const blog = defineCollection({
   schema: blogSchema,
 });
 
-export const collections = { blog };
+const sparkBlog = defineCollection({
+  schema: blogSchema,
+});
+
+export const collections = { blog, sparkBlog };
